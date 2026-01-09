@@ -85,19 +85,6 @@ span{
     padding: 10px 0;
 }
 
-small{
-    color: #FFFFFF;
-    border: 1px solid #FFFFFF;
-    padding: 10px;
-}
-
-small img{
-    color: #FFFFFF;
-   /* border: 1px solid magenta; */
-  size: 16px;
-  text-align: center;
-}
-
 .notes{
     background-color: #F7F6F2;
     height: 400px;
