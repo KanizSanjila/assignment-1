@@ -11,7 +11,7 @@
 
 /* common style */
 
-button{
+.btn{
     background-color:#469165;
     border-radius: 5px;
     border: none;
@@ -26,13 +26,15 @@ button:hover{
     box-shadow: 10px 10px 20px 2px lightgreen;
 }
 
+/* navbar */
+
 nav{
     max-width: 1140px;
     margin: 20px auto;
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    border: 2px solid navy;
+    /* border: 2px solid navy; */
 }
 
 .navbar ul{
@@ -46,5 +48,189 @@ nav{
    font-weight: 500;
 
 }
+
+/* header */
+header{
+    height: 500px;
+    background-image: url('../assets/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.header-container .btn1{
+    background-color: #FFFFFF;
+    color: #30B868;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 500;
+    border: none;
+    margin: 20px 0;
+}
+
+.header-container h1{
+    color: #30B868;
+    font-size: 60px; 
+}
+
+span{
+    color: #FFFFFF;
+}
+
+.header-container p{
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+
+small{
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 10px;
+}
+
+small img{
+    color: #FFFFFF;
+   /* border: 1px solid magenta; */
+  size: 16px;
+  text-align: center;
+}
+
+.notes{
+    background-color: #F7F6F2;
+    height: 400px;
+}
+
+#note-container{
+   max-width: 1140px;
+   margin: 30px auto;
+   text-align: center;
+}
+
+#note-container h2{
+    color: #001913;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+#note-container p{
+    color: #627382;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 20px;
+}
+   
+.note{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.div{
+    background-color: #FFFFFF;
+    height: 250px;
+    padding-top: 20px;
+}
+
+#brin-container{
+    max-width: 1140px;
+    margin: 50px auto;
+    display: flex;
+    /* border: 1px solid saddlebrown; */
+}
+
+.text-container{
+    margin-top: 100px;
+   padding: 50px;
+   /* border: 1px solid magenta; */
+}
+ .text-container h6{
+    color: #30B868;
+ }
+
+ .text-container h1{
+    color: #001931;
+ }
+
+ .text-container p{
+     color: #627382;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 10px 0;
+}
+
+.text-container ul li{
+    color: #001931;
+    list-style: none;
+    padding: 2px;
+    font-size: 15px;
+    /* border: 1px solid lawngreen; */
+}
+
+.text-container ul li img{
+   padding: 10px 10px 0 0;
+ 
+}
+
+.ready-container{
+     max-width: 1140px;
+    margin: 30px auto;
+}
+
+.ready-container .text{
+    height: 300px;
+    background-color: #F7F6F2;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 10px;
+   
+}
+
+.ready-container .text h1{
+       color: #001931;
+       font-size: 40px;
+       line-height: 70px;
+}
+
+.ready-container .text p{
+       color: #627382;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 10px 0;
+}
+
+footer{
+     height: 350px;
+    background-color: #001931;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 100px 0 100px;
+}
+
+footer hr{
+    margin: 40px;
+}
+
+footer p{
+     color: #fafafa;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 10px 0;
+    text-align: center;
+}
+ 
+
+
+
+
+
+
+
 
 
